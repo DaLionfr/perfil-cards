@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 32px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.container-test {
+  width: 100%; 
+  height: 100%; 
+}
+
+div {
+  height: 200px; 
+  width: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+
+
+
+
+.container {
+  display: grid; 
+  grid-template-columns: 1500px 1500px;
+  justify-items: center; 
+  align-items: center;
+}
+
+.input-text {
+  font-size: 30px;
+  background-color: #88A794;
+  border: none;
+  box-sizing: border-box;
+}
+
+.textarea-text {
+  width: 100%; /* Full width of the container */
+  height: 50px; /* Initial height */
+  padding: 10px; /* Padding inside the box */
+  font-size: 16px; /* Font size */
+  box-sizing: border-box; /* Include padding in width calculation */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 4px; /* Rounded corners */
+  resize: none; /* Prevent user from resizing the textarea */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.paris{
+  float: left;
+  position: relative;
+  left: 0px;
+  right: 10px;
+  border: 2px solid black;
+  height: 1125px;
+  width: 825px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
+
+.test {
+  float: left;
+  position: relative;
+  left: 0px;
+  top: 30px; 
+  border: 2px solid black;
+  height: 1125px;
+  width: 825px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
+
+.neymar{
+  float: left;
+  margin-right: 10%;
+  border: 2px solid black;
+  height: 1125px;
+  width: 825px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
+
+.container {
+  width: 100%;
+}
+
+
+.container-name {  
+  color: #CCCCCC;
+  background-color: #093542;
+}
+
+
+.inclined-box {
+  position: relative;
+  bottom: 40px;
+  left: 480px;
+  width: 150px;
+  height: 80px;
+  background-color: #093542;
+  transform: skewX(-20deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.normal-text {
+  position: relative;
+  text-align: center;
+  color: #88A794;
+  padding: 10px;
+  transform: skewX(20deg);
+  z-index: 2;
+}
+
+/*
+static, absolute, fixed relative, sticky, initial, inherit
+*/
+
+
+
+.graySpan {
+  font-size: 30px;
+  margin: auto auto;
+  width: 100%;
+  border: 3px solid;
+  padding: 7px 11px;
+  color: #1D1D1D;
+  background-color: #88A794;
+}
+
+/*Azul: #093542
+Verde: #88A794
+Laranja: #BF7B54
+Branco: #CCCCCC ou #F2F2F2
+Preto: #1D1D1D*/
+
+.whiteSpan {
+  font-size: 30px;
+  margin: auto auto;
+  width: 100%;
+  border: 3px solid;
+  padding: 7px 11px;
+  color: black;
+  background-color: #F2F2F2;
+}
+
+.iAm {
+  margin: 2px auto 10px;
+  width: 11em;
+  padding: 7px 11px;
+  color: black;
+}
+
+header h1 {
+  font-size: 3em;
+  background: linear-gradient( red, red, #ffc0cb, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+
+header h2 {
+  text-align: center;
+  margin: 5px 0;
+  letter-spacing: 0.15px;
+}
+
+header h3 {
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.large {
+  height: 10px;
+}
+
+.large,
+.medium {
+  background-color: black;
+  border: 0;
+}
+
+.medium {
+  height: 5px;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
+
+
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.calories-info h2 {
+  margin: 0;
+}
+
+.left-container p {
+  margin: -5px -2px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.calories-info span {
+  margin: -7px -2px;
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.double-indent {
+  margin-left: 2em;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
+
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+}
